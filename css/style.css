@@ -1,0 +1,517 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/********** Navigation **************/
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.main-nav-left {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+
+.logo {
+    width: 120px;
+}
+
+/* Menu left */
+
+.menu-left {
+    display: flex;
+    padding-left: 20px;
+}
+
+.menu-left-item {
+    padding: 0 10px;
+}
+
+.menu-left-item-link, .menu-right-item-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .8rem;
+    color: #000000;
+}
+
+/* Menu right */
+
+.main-nav-right {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-right {
+    display: flex;
+}
+
+.menu-right-item {
+    padding: 0 10px;
+}
+
+.fas {
+    padding-right: 10px;
+}
+
+/************** Header *************/
+
+.head {
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.hero-content {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.hero-content h2 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 2rem;
+}
+
+.hero-content p {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-size: .9rem;
+}
+
+.links {
+    position: absolute;
+    top: 370px;
+    left: 100px;
+}
+
+.btn {
+    padding: 5px 15px;
+    border: 2px solid #000000;
+    text-decoration: none;
+    color: #ffffff;
+    background: #000000;
+    text-transform: capitalize;
+    font-size: .9rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    text-transform: capitalize;
+    padding-left: 40px;
+    font-size: .9rem;
+}
+
+.fas {
+    padding-left: 5px;
+}
+
+/*********** Section ***********/
+
+.sub-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.sub-link-item {
+    padding: 0 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/**************** First Section ***************/
+
+.first-section {
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.box-one, .box-two, .box-three, .box-four {
+    width: 100%;
+}
+
+/************** Box 1 ***************/
+
+.box-one-text {
+    padding-top: 30px;
+}
+
+.box-one-text h4 {
+    font-size: 1rem;
+}
+
+.box-one-text p {
+    font-size: .9rem;
+    padding: 3px 0;
+}
+
+.first-link, .second-link {
+    color: rgb(111, 111, 219);
+}
+
+.box-one-links {
+    padding-top: 10px;
+}
+
+/************ Box 2 ***************/
+
+.box-two-text {
+    padding-top: 30px;
+}
+
+.box-two-text h4 {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.box-two-text p {
+    font-size: .9rem;
+    padding: 3px 0;
+}
+
+.two-link {
+    color: rgb(111, 111, 219);
+}
+
+.box-two-links {
+    padding-top: 10px;
+}
+
+/*********** Box 3 **************/
+
+.box-three-text {
+    padding-top: 30px;
+}
+
+.box-three-text h4 {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.box-three-text p {
+    font-size: .9rem;
+    padding: 3px 0;
+}
+
+.three-link {
+    color: rgb(111, 111, 219);
+}
+
+.box-three-links {
+    padding-top: 10px;
+}
+
+/*********** Box 4 *************/
+
+.box-four-text {
+    padding-top: 30px;
+}
+
+.box-four-text h4 {
+    font-size: 1rem;
+}
+
+.box-four-text p {
+    font-size: .9rem;
+    padding: 3px 0;
+}
+
+.four-link {
+    color: rgb(111, 111, 219);
+}
+
+.box-four-links {
+    padding-top: 10px;
+}
+
+/*********** Second Section **************/
+
+.second-section {
+    width: 100%;
+    height: 400px;
+}
+
+.sec {
+    position: relative;
+}
+
+.img {
+    margin-top: 200px;
+}
+
+.sec h3 {
+    position: absolute;
+    bottom: 330px;
+    right: 350px;
+    font-size: 2rem;
+}
+
+.sec p {
+    position: absolute;
+    bottom: 280px;
+    right: 215px;
+    font-size: .9rem;
+}
+
+.button {
+    position: absolute;
+    bottom: 230px;
+    right: 525px;
+}
+
+/*************** Rubrik *************/
+
+.rubrik h5 {
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/*********** Third Section ************/
+
+.news {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.news-box-one, .news-box-two, .news-box-three, .news-box-four {
+    width: 100%;
+}
+
+/************ News box 1 ************/
+
+.news-box-one-text {
+    padding-top: 30px;
+}
+
+.news-box-one-text h4 {
+    font-size: 1rem;
+}
+
+.news-box-one-text p {
+    font-size: .9rem;
+    padding: 3px 0;
+}
+
+.box-one-link {
+    color: rgb(111, 111, 219);
+}
+
+.news-box-one-link {
+    padding-top: 10px;
+}
+
+/************ News box 2: *************/
+ 
+.news-box-two-text {
+    padding-top: 30px;
+}
+
+.news-box-two-text h4 {
+    font-size: 1rem;
+}
+
+.news-box-two-text p {
+    font-size: .9rem;
+    padding: 3px 0;
+}
+
+.box-two-link {
+    color: rgb(111, 111, 219);
+}
+
+.news-box-two-link {
+    padding-top: 10px;
+}
+
+/********* News box 3: ***********/
+
+.news-box-three-text {
+    padding-top: 30px;
+}
+
+.news-box-three-text h4 {
+    font-size: 1rem;
+}
+
+.news-box-three-text p {
+    font-size: .9rem;
+    padding: 3px 0;
+}
+
+.box-three-link {
+    color: rgb(111, 111, 219);
+}
+
+.news-box-three-link {
+    padding-top: 10px;
+}
+
+/********* News box 4: ************/
+
+.news-box-four-text {
+    padding-top: 30px;
+}
+
+.news-box-four-text h4 {
+    font-size: 1rem;
+}
+
+.news-box-four-text p {
+    font-size: .9rem;
+    padding: 3px 0;
+}
+
+.box-four-link {
+    color: rgb(111, 111, 219);
+}
+
+.news-box-one-link {
+    padding-top: 10px;
+}
+
+/*********** Social Media ***********/
+
+.social-media {
+    width: 100%;
+    height: 50px;
+}
+
+.social-menu {
+    display: flex;
+}
+
+.social-media p {
+    padding-right: 20px;
+}
+
+.fab {
+    padding: 0 5px; 
+}
+
+.fa-instagram-square {
+    color:rgb(114, 114, 189);
+}
+
+.fa-youtube-square {
+    color: red;
+}
+
+.fa-linkedin {
+    color: rgb(90, 156, 199);
+}
+
+.fa-twitter-square {
+    color: rgb(126, 203, 255);
+}
+
+.fa-facebook-square {
+    color: rgb(65, 97, 158);
+}
+
+/************** Footer ************/
+
+/*********** Footer Top **********/
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    background: rgb(238, 238, 238);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 90px;
+    padding-right: 300px;
+}
+
+.footer-list-title {
+    font-weight: bold;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.footer-list-item {
+    text-transform: capitalize;
+    padding: 10px 0;
+    font-size: .7rem;
+}
+
+.footer-bottom { 
+    display: flex;
+}
+
+.footer-bottom-country {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 300px;
+    height: 120px;
+    padding-left: 150px ;
+}
+
+.footer-bottom-country p {
+    font-size: .7rem;
+}
+
+.footer-bottom-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 120px;
+    padding-right: 230px;
+    align-items: flex-end;
+}
+
+.footer-bottom-menu-item {
+    padding: 0 20px;
+    text-transform: capitalize;
+    font-size: .7rem;
+}
+
+
